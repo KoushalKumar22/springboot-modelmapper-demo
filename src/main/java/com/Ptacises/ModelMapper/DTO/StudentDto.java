@@ -10,6 +10,7 @@ public class StudentDto {
         return id;
     }
 
+    //getter setter
     public void setId(int id) {
         this.id = id;
     }
