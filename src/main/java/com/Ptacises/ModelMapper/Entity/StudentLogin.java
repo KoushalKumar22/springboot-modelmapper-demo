@@ -9,7 +9,6 @@ public class StudentLogin {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
-
     String name;
     int std;
 
@@ -21,7 +20,6 @@ public class StudentLogin {
         this.name = name;
         this.std = std;
     }
-
     public int getId() {
         return id;
     }
