@@ -59,6 +59,4 @@ public class StudentController {
                         .map(studentLogin, StudentDto.class))
                 .collect(Collectors.toList());
     }
-
-
 }
